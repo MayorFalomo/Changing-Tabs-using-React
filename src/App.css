@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Alata&family=Barlow:wght@600&family=Cabin:wght@500&family=Fraunces:opsz,wght@9..144,700;9..144,900&family=Inter:wght@600&family=Josefin+Sans:wght@300;400;600&family=League+Spartan:wght@400;500;700&family=Manrope:wght@300&family=Maven+Pro&family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
 .App {
-  text-align: center;
+ font-family: "Maven pro";
+ width: 100%;
+ height: 100%;
+ overflow:hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style-type: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 1.5rem;
+}
+ul li button{
+  background-color: transparent;
+  border: none;
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.link.active{
+  color: #2CAEBA;
+  border-left: 1px #2CAEBA solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flexItem{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
